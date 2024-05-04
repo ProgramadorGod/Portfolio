@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
 
 function App() {
+  
+  document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"></meta>
+
+      <Home>
+        
+
+      </Home>
     </div>
   );
 }
