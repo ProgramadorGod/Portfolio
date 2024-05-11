@@ -9,6 +9,9 @@ const AboutMe = () => {
   return (
     <div>
         <div id="TextAbout">
+
+        {/* Explaining */}
+
             <div>
                 I'm a 20 years old student of Unipaz in the carrer of Informatic Engineer
                 </div>
@@ -18,16 +21,16 @@ const AboutMe = () => {
             </div>
         </div>
 
+        {/* Images Section */}
+
         <div id='aboutimages'>
             <img src={unipaz} className='aboutimg'></img>
             <img src={me} className='aboutimg'></img>
             <img src={gold} className='aboutimg'></img>
-
         </div>
 
         
-
-
+        {/* Title of section */}
 
         <HomeText id="aboutText">
             Know A Bit More 
