@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "Panda";
+  src: local(Baby Panda), url(./fonts/Baby\ Panda.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Runtoe";
+  src: local(Runtoe), url(./fonts/Runtoe.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Bubble";
+  src: local(Crush Bubble), url(./fonts/Crush\ Bubble.otf) format("opentype");
+}

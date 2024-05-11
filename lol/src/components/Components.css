@@ -1,0 +1,41 @@
+.active{
+    color: aliceblue;
+
+}
+
+.skillimg{
+    width: 15vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    user-select: none;
+}
+
+#SkillsText{
+    padding-bottom: 10vh;
+}
+
+#aboutText{
+    padding-bottom: 5vh;
+
+}
+
+.aboutimg{
+    width: 15vh;
+    height: 20vh;
+    object-fit: fill;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    user-select: none;
+}
+
+#aboutimages{
+    padding-bottom: 20vh;
+    
+}
+
+#TextAbout{
+    font-size: 1.4rem;
+    font-family: Runtoe;
+    padding-bottom: 4vh;
+    
+}

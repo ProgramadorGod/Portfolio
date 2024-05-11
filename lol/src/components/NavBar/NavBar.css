@@ -1,0 +1,15 @@
+.activeLink{
+    background-color: rgb(170, 177, 71); /* Ocultar contenido que desborde */
+
+
+}
+
+.Typewriter{
+    display: inline-flex;
+
+    max-height: 1.4rem;
+}
+
+/* not working yet */
+
+
