@@ -30,7 +30,7 @@ const AboutMe = () => {
         </div>
 
         
-        {/* Title of section */}
+        {/* New Title of section */}
 
         <HomeText id="aboutText">
             Know A Bit More 
